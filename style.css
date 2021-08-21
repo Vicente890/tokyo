@@ -94,7 +94,7 @@ scroll-page{
 
 
 .cabeza blockquote{
-  color:black;
+  color:white;
   width:600px;
 }
 .cabeza img{
@@ -106,7 +106,7 @@ scroll-page{
   padding:50px;
 }
 .seccion h2{
-  color:#00ffff;
+  color:#9b2156;
 }
 .seccion small{
   color:white;
@@ -235,7 +235,7 @@ scroll-page{
   margin:10px 0;
   border-radius:5px;
   padding:10px;
-  color:white;
+  color:pink;
   text-decoration:none;
   background:#9b2156;
 } 
