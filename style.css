@@ -6,7 +6,7 @@ html{
   scroll-behavior:smooth;
 }
 body{
-  background-image: url('https://media.discordapp.net/attachments/869750033598251068/871589448486354954/uwu.png');
+  background-image: url('https://cdn.discordapp.com/attachments/778156886553395210/878712664086417499/FondoTokyo.png');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -150,24 +150,24 @@ scroll-page{
   margin:10px 400px;
   display:inline-block;
   border-radius:7px;
-  border-color:#7289da;
+  border-color:#9b2156;
   padding:10px;
   color:white;
   text-decoration:none;
-  background:#7289da;
+  background:#9b2156;
 } 
 .invitar a{
   text-decoration:none;
 } 
 .invitar button:hover{
   background:white;
-  color:#7289da;
+  color:#9b2156;
 }
 .invitar span{
   color:red;
 }
 .invitar button span:hover{
-  color:#7289da;
+  color:#9b2156;
   
 } 
 .invitar img{
@@ -237,17 +237,17 @@ scroll-page{
   padding:10px;
   color:white;
   text-decoration:none;
-  background:#7289da;
+  background:#9b2156;
 } 
 .invitar button:hover{
   background:white;
-  color:#7289da;
+  color:#9b2156;
 }
 .invitar span{
   color:red;
 }
 .invitar button span:hover{
-  color:#7289da;
+  color:#9b2156;
   
 }
 .inicio .separador{
@@ -268,7 +268,7 @@ scroll-page{
 }
 .cabeza button:active{
   transition:background 5s alternate;
-  background:#7289da;
+  background:#9b2156;
 }
 #a-1:active{
   background:gray;
