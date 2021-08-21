@@ -251,7 +251,7 @@ scroll-page{
   
 }
 .inicio .separador{
-  border:.7px solid #d3bcf6;
+  border:.7px solid #9b2156;
   width:300px;
   }
 } 
@@ -274,7 +274,7 @@ scroll-page{
   background:gray;
 } 
 .cabeza h1{
-  color:#dca3b1;
+  color:#f0e7eb;
 } 
 #rotacion {
 animation:rotate 10s infinite linear;
