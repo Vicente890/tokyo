@@ -1,0 +1,303 @@
+*{
+  padding:0;
+  margin:0;
+}
+html{
+  scroll-behavior:smooth;
+}
+body{
+  background-image: url('https://media.discordapp.net/attachments/869750033598251068/871589448486354954/uwu.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+font-family:arial;
+  
+}
+
+/*scroll*/
+scroll-container{
+  display: block;
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior:smooth;
+}
+scroll-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+} 
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 20px;
+  
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid orange;
+}
+.nav a{
+  text-decoration:none;
+  color:white;
+}
+/*nav*/
+.abrir a{
+  text-decoration:none;
+  color:red;
+}
+.abrir{
+  display:none;
+}
+.nav{
+  background:#d3bcf6;
+  position:fixed;
+  width:100%;
+  z-index:1;
+  padding:20px;
+}
+.nav img{
+  height:30px;
+  position:fixed;
+  right:35px;
+  margin:-7px;
+}
+.nav span{
+  padding:0 5px;
+}
+.nav ul li{
+  display:inline;
+  padding:10px;
+  
+}
+.nav ul li a:hover{
+  border:none;
+  transition:all ease-in-out 3s alternate;
+  border-bottom:3px solid red;
+}
+
+
+.cabeza blockquote{
+  color:black;
+  width:600px;
+}
+.cabeza img{
+  height:300px;
+}
+.seccion{
+  display:block;
+  width:600px;
+  padding:50px;
+}
+.seccion h2{
+  color:#00ffff;
+}
+.seccion small{
+  color:white;
+}
+#sec1{
+  background:#2c2f33;
+}
+#flotando{
+ 
+  height:auto;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+@keyframes floating {
+  from {
+      transform: translate(0, 0px);
+  }
+  65% {
+      transform: translate(0, 15px);
+  }
+  to {
+      transform: translate(0, -0px);
+  }
+}
+.flotando img{
+  
+  float:right;
+  margin:-200px 100px 50px;
+}
+.invitar h2{
+  width:600px;
+  display:block;
+  margin:10px 400px;
+} 
+.invitar button{
+  width:200px;
+  margin:10px 400px;
+  display:inline-block;
+  border-radius:7px;
+  border-color:#7289da;
+  padding:10px;
+  color:white;
+  text-decoration:none;
+  background:#7289da;
+} 
+.invitar a{
+  text-decoration:none;
+} 
+.invitar button:hover{
+  background:white;
+  color:#7289da;
+}
+.invitar span{
+  color:red;
+}
+.invitar button span:hover{
+  color:#7289da;
+  
+} 
+.invitar img{
+  margin:-200px 100px 50px;
+}
+.inicio .separador{
+  border:.7px solid #d3bcf6;
+  width:600px;
+  }
+@media screen and (max-width:800px){
+ .invitar img{
+   margin:0 60px 0;
+ } 
+
+ .flotando img{
+    float:left;
+    margin:0 110px;
+  }
+ .abrir{
+   position:fixed;
+   display:block;
+   margin:10px;
+   font-size:20px;
+ }
+.nav{
+  right:-100%;
+  position:fixed;
+  background:#d3bcf6;
+  height:100%;
+  width:50%;
+  z-index:1;
+}
+.nav ul li{
+  display:flex;
+  padding:10px 20px;
+}
+.nav img{
+  display:none;
+}
+
+.cabeza small{
+  color:black;
+  
+}
+.titulo-1{
+ display:block;
+}
+.cabeza img{
+  height:100px;
+} 
+.cabeza blockquote{
+  width:300px;
+
+} 
+.seccion{
+  width:300px;
+  padding:10px;
+} 
+.invitar h2{
+  width:200px;
+  margin:10px 0;
+} 
+.invitar button{
+  width:200px;
+  margin:10px 0;
+  border-radius:5px;
+  padding:10px;
+  color:white;
+  text-decoration:none;
+  background:#7289da;
+} 
+.invitar button:hover{
+  background:white;
+  color:#7289da;
+}
+.invitar span{
+  color:red;
+}
+.invitar button span:hover{
+  color:#7289da;
+  
+}
+.inicio .separador{
+  border:.7px solid #d3bcf6;
+  width:300px;
+  }
+} 
+
+.cabeza button{
+  display:inline-block;
+    color:white;
+    border-color:rgb(98, 211, 245);
+    border-width: 5px;
+    background:#2c2f33;
+    text-decoration:none;
+    padding:10px;
+    border-radius:20px; 
+}
+.cabeza button:active{
+  transition:background 5s alternate;
+  background:#7289da;
+}
+#a-1:active{
+  background:gray;
+} 
+.cabeza h1{
+  color:#0099ff;
+} 
+#rotacion {
+animation:rotate 10s infinite linear;
+position:normal;
+}
+@keyframes rotate {
+0%{
+transform: rotate(0deg);
+}
+100%{
+transform: rotate(360deg);
+}
+}
+
+#desaparecer{
+  opacity:0;
+  animation:desaparecer 5s infinite alternate;
+}
+@keyframes desaparecer{
+  from{
+    opacity:0;
+} 
+to{
+  opacity:1;
+}
+} 
