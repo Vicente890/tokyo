@@ -78,6 +78,12 @@ scroll-page{
   right:35px;
   margin:-7px;
 }
+.txt-img-nav{
+  
+  position:fixed;
+  right:47px;
+  margin:-7px;
+}
 .nav span{
   padding:0 5px;
 }
@@ -178,6 +184,9 @@ scroll-page{
   width:600px;
   }
 @media screen and (max-width:800px){
+  .txt-img-nav{
+  display:none;
+}
  .invitar img{
    margin:0 60px 0;
  } 
